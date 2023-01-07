@@ -2,7 +2,7 @@
     margin:0px;
     padding:0px;
 }
-
+/* header part */
 header{
     background-color:#E8E1DF;
     background-image: url(../images/banner/banner1.png);
@@ -22,7 +22,7 @@ header{
    padding: 180px;
    margin: 100px;
    font-weight: 700;
-   font-family:'Work Sans';
+   font-family:'Impact, fantasy';
    font-size: 50px;
    color: #151414;
    font-style: normal;
@@ -45,7 +45,7 @@ header{
     right: -287px;
     padding: 15px 40px;
     margin: 550px;
-    font-family:'Work Sans';
+    font-family:'Impact,fantasy';
     font-size: 20px; 
     background-color: orangered;
     color:white;
@@ -54,5 +54,57 @@ header{
     border-radius: 6px;
 }
 
+/*  section part */
+
+section{
+    display:flex;
+    padding:160px;
+    margin: 50px;
+    justify-content:space-evenly;
+}
+
+section img{
+    background-color: antiquewhite;
+    border-radius: 50%;
     
-    
+}
+.section-content{
+    margin: 110px;
+}
+.section-content h2{
+    height:100px;
+    width: 450px;
+    margin-left: 50px;
+   font-weight: 700;
+   font-family:'Work Sans';
+   font-size: 50px;
+   color: #151414;
+   font-style: normal;
+}
+.section-content p{
+    line-height: 20px;
+    height:40px;
+    width: 416px;
+    width: 56%;
+    margin: 50px;
+    font-family:'Work Sans';
+    font-size: 16px; 
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.548);
+}
+.section-content ul{
+    list-style: none;
+    line-height: 30px;
+    /* height:400px;
+    width: 416px; */
+    margin: 50px;
+    font-family:'Work Sans';
+    font-size: 16px; 
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.548);
+   
+}
+.section-content ul li:before{
+    content: '\2713';
+    color: green;
+}
