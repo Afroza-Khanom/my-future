@@ -62,7 +62,7 @@ section{
     padding-bottom: 0px;
     padding-left: 160px;
     margin: 50px;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 
 section img{
@@ -71,7 +71,7 @@ section img{
     
 }
 .section-content{
-    margin: 160px;
+    margin-top:0px;
 }
 .section-content h2{
     height:50px;
@@ -111,6 +111,59 @@ section img{
     color: green;
     font-size: large;
 }
+
+/* New section for bonus point */
+
+.section1 {
+    display: inline-block;
+    width: 60%;
+    margin: 180px;
+    justify-content: space-between;
+}
+.section1 img{
+    float: right;
+    width: 55%;
+}
+.section1 h2{
+    height:50px;
+    width: 450px;
+    margin-left:30px;
+   font-weight: 700;
+   font-family:'Work Sans';
+   font-size: 50px;
+   color: #151414;
+   font-style: normal;
+}
+.section1 p{
+    line-height: 20px;
+    height:60px;
+    width: 416px;
+    width: 56%;
+    margin: 50px;
+    font-family:'Work Sans';
+    font-size: 16px; 
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.548);
+}
+
+.section1 ul{
+    list-style: none;
+    line-height: 30px;
+    /* height:400px;
+    width: 416px; */
+    margin: 50px;
+    font-family:'Work Sans';
+    font-size: 16px; 
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.548);
+   
+}
+.section1 ul li:before{
+    content: '\2713';
+    color: green;
+    font-size: large;
+}
+
 /* my plan section */
 h2{
     font-size: 50px;
@@ -159,7 +212,7 @@ h2{
     text-align: left;
    width: 40%;
    position: absolute;
-   left: -80px;
+   left: -60px;
    padding-left: 260px;
    padding-bottom: 180px;
    padding-top: 0px;
@@ -174,7 +227,7 @@ h2{
 .call-now button{
     text-align: left;
     position: absolute;
-    left: -80px;
+    left: -60px;
     padding: 15px 40px;
     margin-left: 260px;
    margin-bottom: 180px;
