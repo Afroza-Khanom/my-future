@@ -58,7 +58,9 @@ header{
 
 section{
     display:flex;
-    padding:160px;
+    padding-top:100px;
+    padding-bottom: 0px;
+    padding-left: 190px;
     margin: 50px;
     justify-content:space-evenly;
 }
@@ -69,7 +71,7 @@ section img{
     
 }
 .section-content{
-    margin: 110px;
+    margin: 120px;
 }
 .section-content h2{
     height:100px;
@@ -83,7 +85,7 @@ section img{
 }
 .section-content p{
     line-height: 20px;
-    height:40px;
+    height:60px;
     width: 416px;
     width: 56%;
     margin: 50px;
@@ -107,4 +109,125 @@ section img{
 .section-content ul li:before{
     content: '\2713';
     color: green;
+    font-size: large;
+}
+/* my plan section */
+h2{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 40px;
+}
+.plans{
+    /* margin-top: 5%; */
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    text-align: center;
+    margin:auto;
+    line-height: 1.5;
+    align-content: flex-start;
+}
+.plans-content{
+    flex-basis: 30%;
+    margin-bottom: 5%;
+    margin-left: 10px;
+    padding: 20px;
+    /* padding-left:50px;
+    padding-right: 20px;; */
+}
+.plans-content h3{
+    font-weight: 1000;
+    font-size: 30px;
+}
+.plans-content p{
+    font-weight: 300;
+    color:rgba(0, 0, 0, 0.548);
+    font-size: 23px;
+}
+
+/* call-now section */
+.call-now{
+    background-image:linear-gradient(rgba(30, 4, 4, 0.014),rgba(30, 4, 4, 0.021)), url(../images/gradient3.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    height:250px;
+    width: 70%;
+    background-position: relative;
+    background-size: cover;
+    margin:auto;
+}
+.call-now h1{
+    text-align: left;
+   width: 40%;
+   position: absolute;
+   left: -80px;
+   padding-left: 260px;
+   padding-bottom: 180px;
+   padding-top: 0px;
+   /* margin: 10px; */
+   font-family:'Impact, fantasy';
+   font-size: 55px;
+    font-weight: 600;
+    color: white;
+   font-style: normal;
+}
+
+.call-now button{
+    text-align: left;
+    position: absolute;
+    left: -80px;
+    padding: 15px 40px;
+    margin-left: 260px;
+   margin-bottom: 180px;
+   margin-top: 130px;
+    /* margin-left: 150px;
+    margin: 100px; */
+    font-family:'Impact,fantasy';
+    border:none;
+    border-radius: 6px 6px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:white;
+    color: orangered;
+}
+/* footer section */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.904);
+    color: rgba(255, 255, 255, 0.925);
+    margin-top: 130px;
+    padding: 160px;
+}
+.future{
+    display: inline-block;
+    width:70%;
+}
+.subscribe{
+    float: right;
+    width: 30%;
+}
+.future h1{
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 2;
+}
+.future p{
+    width:55%;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.future span{
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.icons div{
+    display:inline-block;
+    /* width:100px; */
+    height: 100px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.subscribe h1{
+    font-size: 50px;
 }
